@@ -1,0 +1,84 @@
+// Imports FontAwesome Icons
+@import "https://use.fontawesome.com/6743a74a84.css";
+
+// Styles for the footer
+footer {
+  text-align: center;
+  background-color: #333333;
+  color: #FFFFFF;
+  height: 2.8125rem;
+  margin-top: 30px;
+  // Styles for the text in the footer
+  p {
+    margin: auto;
+    line-height: 2.8125rem;
+    font-size: 1.0625rem;
+  }
+}
+
+// Moves the icon on a button with text
+.button-icon {
+  margin-right: 8px;
+}
+
+
+.row {
+  // Puts a border at the bottom of a text answer on the results page
+  .text-answer {
+    border-bottom: 1px solid #000;
+  }
+  // Puts a border to the right of a text answer on the results page (every even instance)
+  .text-answer:nth-child(even) {
+    border-left: 1px solid #000;
+  }
+  // Puts a border at the bottom of a list of items
+  .list-item {
+    border-bottom: 1px solid #000;
+    // Changes the position of links in the list of items
+    a{
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    // Changes the position of buttons in the list of items
+    button {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    // changes the position of text in the list of items
+    p {
+      margin-top: 15px;
+      margin-bottom: 5px;
+    }
+    // makes the text bold for titles in the list of items
+    .title {
+      font-weight: bold;
+    }
+  }
+}
+
+// makes the type of question bold in the results page
+.type {
+  font-weight: bold;
+}
+
+// removes left margin and padding from the first heading
+h1 {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+// errors styling on forms (validation)
+.errors {
+  background-color: #cf6e0e;
+  color: #FFFFFF;
+  padding-top: 5px;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  padding-right:0px;
+  margin-bottom:10px;
+  // text styling in the errors
+  p{
+    margin:0;
+    padding-left:10px;
+  }
+}

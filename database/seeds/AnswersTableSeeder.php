@@ -1,0 +1,161 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class AnswersTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('answers')->insert([
+//            Question 1
+            ['id' => 1,
+                'title' => "Strongly Agree",
+                'rating' => 5,
+                'question_id' => 1,
+            ],
+            ['id' => 2,
+                'title' => "Agree",
+                'rating' => 4,
+                'question_id' => 1,
+            ],
+            ['id' => 3,
+                'title' => "Neutral",
+                'rating' => 3,
+                'question_id' => 1,
+            ],
+            ['id' => 4,
+                'title' => "Disagree",
+                'rating' => 2,
+                'question_id' => 1,
+            ],
+            ['id' => 5,
+                'title' => "Strongly Disagree",
+                'rating' => 1,
+                'question_id' => 1,
+            ],
+//            Question 3
+            ['id' => 6,
+                'title' => "Strongly Agree",
+                'rating' => 5,
+                'question_id' => 3,
+            ],
+            ['id' => 7,
+                'title' => "Agree",
+                'rating' => 4,
+                'question_id' => 3,
+            ],
+            ['id' => 8,
+                'title' => "Neutral",
+                'rating' => 3,
+                'question_id' => 3,
+            ],
+            ['id' => 9,
+                'title' => "Disagree",
+                'rating' => 2,
+                'question_id' => 3,
+            ],
+            ['id' => 10,
+                'title' => "Strongly Disagree",
+                'rating' => 1,
+                'question_id' => 3,
+            ],
+//            Question 4
+            ['id' => 11,
+                'title' => "Yes",
+                'rating' => 3,
+                'question_id' => 4,
+            ],
+            ['id' => 12,
+                'title' => "Somewhat",
+                'rating' => 2,
+                'question_id' => 4,
+            ],
+            ['id' => 13,
+                'title' => "No",
+                'rating' => 2,
+                'question_id' => 4,
+            ],
+//            Question 6
+            ['id' => 14,
+                'title' => "Yes",
+                'rating' => 3,
+                'question_id' => 6,
+            ],
+            ['id' => 15,
+                'title' => "Somewhat",
+                'rating' => 2,
+                'question_id' => 6,
+            ],
+            ['id' => 16,
+                'title' => "No",
+                'rating' => 2,
+                'question_id' => 6,
+            ],
+//            Question 2
+            ['id' => 17,
+                'title' => "30",
+                'rating' => 0,
+                'question_id' => 2,
+            ],
+//            Question 5
+            ['id' => 18,
+                'title' => "7",
+                'rating' => 0,
+                'question_id' => 5,
+            ],
+//            Question 2
+            ['id' => 19,
+                'title' => "70",
+                'rating' => 0,
+                'question_id' => 2,
+            ],
+//            Question 5
+            ['id' => 20,
+                'title' => "5",
+                'rating' => 0,
+                'question_id' => 5,
+            ],
+//            Question 2
+            ['id' => 21,
+                'title' => "40",
+                'rating' => 0,
+                'question_id' => 2,
+            ],
+//            Question 5
+            ['id' => 22,
+                'title' => "8",
+                'rating' => 0,
+                'question_id' => 5,
+            ],
+//            Question 2
+            ['id' => 23,
+                'title' => "25",
+                'rating' => 0,
+                'question_id' => 2,
+            ],
+//            Question 5
+            ['id' => 24,
+                'title' => "5",
+                'rating' => 0,
+                'question_id' => 5,
+            ],
+//            Question 2
+            ['id' => 25,
+                'title' => "10",
+                'rating' => 0,
+                'question_id' => 2,
+            ],
+//            Question 5
+            ['id' => 26,
+                'title' => "8",
+                'rating' => 0,
+                'question_id' => 5,
+            ],
+        ]);
+    }
+}
